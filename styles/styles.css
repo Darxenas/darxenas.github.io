@@ -1,8 +1,29 @@
 body{
-  text-align: center;
+    text-align: center;
 }
 main, header {
-  max-width: 960px;
-  margin: auto;
-  text-align: left;
+    max-width: 960px;
+    margin: auto;
+    text-align: left;
+}
+
+header{
+    height: 96px;
+    background-color: rgba(72, 68, 83, 1);
+    color: rgba(245, 0, 96, 1);
+    font-family: Bahnschrift;
+    text-align: center;
+    
+}
+
+header h1{
+    line-height: 96px;
+}
+
+header mark{
+    display: inline-block;
+    background-color: rgba(245, 0, 96, 1);
+    color: white;
+    width: 96px;
+    text-align: center;
 }
