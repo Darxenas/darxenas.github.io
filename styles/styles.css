@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    margin: auto;
 }
 main, header {
     max-width: 960px;
@@ -26,4 +27,19 @@ header mark{
     color: white;
     width: 96px;
     text-align: center;
+}
+
+.info{
+    display: inline-block;
+    width: 307px;
+    background-color: rgba(245, 0, 96, 1);
+    text-align: center;
+}
+
+.info2{
+    display: inline-block;
+    background-color: rgba(222, 222, 222, 1);
+    width: 144px;
+    font-family: Montserrat SemiBold;
+    padding-top: 8px;
 }
