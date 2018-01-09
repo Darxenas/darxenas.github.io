@@ -1,6 +1,5 @@
 body{
     text-align: center;
-    margin: auto;
 }
 main, header {
     max-width: 960px;
@@ -41,5 +40,33 @@ header mark{
     background-color: rgba(222, 222, 222, 1);
     width: 144px;
     font-family: Montserrat SemiBold;
-    padding-top: 8px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.info3{
+    display: inline-block;
+    font-family: Montserrat;
+    width: 360px;
+    vertical-align: top;
+    padding-left: 16px;
+}
+
+.catalog-title {
+    color: rgba(245, 0, 96, 1);
+}
+
+.catalog-datetime mark{
+    background: none;
+    font-size: xx-large;
+}
+
+.link{
+    color: rgba(245, 0, 96, 1);
+    text-decoration: none;
+}
+
+.img{
+    display: inline-block;
+    
 }
