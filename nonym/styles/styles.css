@@ -1,15 +1,16 @@
 body{
     text-align: center;
-    max-width: 960px;
+    
 }
 main, header {
+    max-width: 960px;
     margin: auto;
     text-align: left;
 }
 
 header{
     height: 224px;
-    background-color: #302844;;
+    background-color: #302844;
     color: #4BBF64;
     font-size: xx-large;
     text-align: center;
@@ -32,8 +33,12 @@ header h2{
 .info{
     display: inline-block;
     width: 960px;
-    height: 96px;
     background-color: #4BBF64;
     text-align: center;
-    line-height: 74px;
+}
+
+.info p{
+    font-family: Myriad Pro;
+    color: #302844;
+
 }
