@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    max-width: 960px;
+}
+main, header {
+    margin: auto;
+    text-align: left;
+}
+
+header{
+    height: 224px;
+    background-color: #302844;;
+    color: #4BBF64;
+    font-size: xx-large;
+    text-align: center;
+    
+}
+
+header h1{
+    line-height: 150px;
+    font-family: OCR A Std;
+    display: inline;
+}
+
+header h2{
+    margin: auto;
+    font-size: xx-large;
+    font-family: Myriad Pro;
+    line-height: 74px;
+}
+
+.info{
+    display: inline-block;
+    width: 960px;
+    height: 96px;
+    background-color: #4BBF64;
+    text-align: center;
+    line-height: 74px;
+}
