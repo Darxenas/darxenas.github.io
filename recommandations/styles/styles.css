@@ -23,7 +23,6 @@ h1{
 .card{
     background-color: lightgray;
     border-radius: 16px;
-    width: calc(33.3% - 10px);
 }
 
 .card > img{
@@ -32,4 +31,24 @@ h1{
 
 .card-content{
     padding: 0 24px 24px;
+}
+
+.card-content h3{
+    font-size: 24px;
+}
+
+
+
+@media screen and (min-width: 480px){
+    .card-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .card{
+        width: calc(50% - 10px);
+    }
+}
+@media screen and (min-width: 720px){
+    width: calc(33.3% - 10px);
 }

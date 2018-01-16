@@ -18,31 +18,27 @@
 </head>
 
 <body>
-    <main mv-app="" mv-storage="https://github.com/darxenas/" mv-plugins="locale-fr"></main>
     <header>
         <div class="container">
             <h1>Aussitôt dit, aussitôt recommandé.</h1>
         </div>
     </header>
-    <main class="container">
-        <div class="category">
-            <h2>Séries</h2>
+    <main class="container" mv-app="recommandation" mv-storage="https://github.com/darxenas/" mv-plugins="locale-fr">
+        <div class="category" property="category" mv-multiple>
+            <h2 property="cat-title">Séries</h2>
             <div class="card-list">
-                <article class="card">
-                    <img src="img/friends.jpg" alt="friends">
+                <article class="card" property="card" mv-multiple>
+                    <img src="img/friends.jpg" alt="friends" property="image">
                     <div class="card-content">
-                        <h3>[title]</h3>
-                        <p>[description]</p>
-                        <ul>
-                            <li>Comedy</li>
+                        <h3 property="title">[title]</h3>
+                        <p property="description">description</p>
+                        <ul property="tag-list">
+                            <li class="tag" property="tag" mv-multiple>Comedy</li>
                         </ul>
                     </div>
-                    
                 </article>
             </div>
         </div>
     </main>
-    
-    
 </body>
 </html>
