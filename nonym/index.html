@@ -7,17 +7,17 @@
  <title>Nonym</title>
  <meta name="description" content="">
  <meta name="viewport" content="width=device-width, initial-scale=1">
- 
+
     <script src="https://get.mavo.io/mavo.js"></script>
  <link rel="stylesheet" href="https://get.mavo.io/mavo.css"/>
- 
-    
+
+
  <link rel="stylesheet" type="text/css" href="styles/normalize.css">
  <link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
 
 <body>
-    <main mv-app="nonym" mv-storage="https://github.com/darxenas/" mv-plugins="locale-fr"></main>
+    <main mv-app="nonym" mv-storage="https://github.com/darxenas/" mv-autosave mv-plugins="locale-fr" >
     <header>
         <h1>⌊Nonym⌉</h1>
         <h2>Des questions. Des réponses. En tout anonymat.</h2>
@@ -25,7 +25,15 @@
     <div class="info">
         <p><b>Nonym</b> est un espace ouvert et libre à tous. Afin d'assurer la pérénité de la plate-forme,<br />veuillez échanger dans le respect. Ne postez pas de messages d'insultes, violents ou à caractère sexuel.</p>
     </div>
-   
-   
+
+    <p>Déjà [count(msg)] messages publiés</p>
+    <label for="msg">Laisser un message :</label>
+    <ul>
+      <li property="msg" mv-mode="edit" mv-multiple>
+        <div property="text">Message</div>
+      </li>
+    </ul>
+    </main>
+
 </body>
 </html>
