@@ -1,3 +1,35 @@
 body{
-    
+    text-align: center;
+}
+
+header{
+    display: block;
+    background-color: #141e3f;
+    padding: 40px 0;
+}
+
+.container{
+    max-width: 960px;
+    padding: 0 24px 0 24px;
+    margin: auto;
+    text-align: left;
+}
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+
+.card{
+    background-color: lightgray;
+    border-radius: 16px;
+    width: calc(33.3% - 10px);
+}
+
+.card > img{
+    max-width: 100%;
+}
+
+.card-content{
+    padding: 0 24px 24px;
 }

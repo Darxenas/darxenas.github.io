@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Site de Dédé</title>
+    <title>Nom du site</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
  
     <script src="https://get.mavo.io/mavo.js"></script>
     <link rel="stylesheet" href="https://get.mavo.io/mavo.css"/>
  
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     
     <link rel="stylesheet" type="text/css" href="styles/normalize.css">
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
@@ -18,7 +19,30 @@
 
 <body>
     <main mv-app="" mv-storage="https://github.com/darxenas/" mv-plugins="locale-fr"></main>
-    <h1>Les bons petits trucs de Sophie Pétoncule</h1>
-   
+    <header>
+        <div class="container">
+            <h1>Aussitôt dit, aussitôt recommandé.</h1>
+        </div>
+    </header>
+    <main class="container">
+        <div class="category">
+            <h2>Séries</h2>
+            <div class="card-list">
+                <article class="card">
+                    <img src="img/friends.jpg" alt="friends">
+                    <div class="card-content">
+                        <h3>[title]</h3>
+                        <p>[description]</p>
+                        <ul>
+                            <li>Comedy</li>
+                        </ul>
+                    </div>
+                    
+                </article>
+            </div>
+        </div>
+    </main>
+    
+    
 </body>
 </html>
