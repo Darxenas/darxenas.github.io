@@ -1,54 +1,81 @@
-body{
+body {
+    background-color: #DDDAE5;
+    color: #fff;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
-header{
+header {
     display: block;
-    background-color: #141e3f;
+    background-color: #30274C;
     padding: 40px 0;
+    box-shadow: 0px 2px 12px rgba(0,0,0,0.6);
 }
 
-.container{
+.container {
     max-width: 960px;
     padding: 0 24px 0 24px;
     margin: auto;
     text-align: left;
 }
 
-h1{
-    font-family: 'Josefin Sans', sans-serif;
-    color: white;
+.container img {
+    max-width: 50%;
+    max-height: 50%;
 }
 
-.card{
-    background-color: lightgray;
-    border-radius: 16px;
+.container mark {
+    color: #E7A900;
+    background-color: transparent;
+    font-weight: bolder;
 }
 
-.card > img{
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #DDDAE5;
+}
+
+h2 {
+    color: #30274C;
+}
+
+.card {
+    background-color: white;
+    border-radius: 6px;
+    color: #4b4e4c;
+    box-shadow: 0px 2px 12px rgba(0,0,0,0.6);
+}
+
+.card > img {
     max-width: 100%;
+    border-radius: 6px 6px 0px 0px;
 }
 
-.card-content{
+.card-content {
     padding: 0 24px 24px;
 }
 
-.card-content h3{
+.card-content h3 {
     font-size: 24px;
 }
 
 
 
-@media screen and (min-width: 480px){
-    .card-list{
+@media screen and (min-width: 480px) {
+    .card-list {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    .card{
-        width: calc(50% - 10px);
+
+    .card {
+        width: calc(50% - 10px); 
     }
+
 }
-@media screen and (min-width: 720px){
-    width: calc(33.3% - 10px);
+
+@media screen and (min-width: 720px) {
+    .card {
+        width: calc(33.3% - 10px); 
+    }
 }
